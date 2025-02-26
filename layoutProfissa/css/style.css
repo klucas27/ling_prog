@@ -23,9 +23,9 @@ header{
     flex: 1;
 }
 
-.header-icone-esquerda {
+/* .header-icone-esquerda {
 
-}
+} */
 
 #header-icones-direita{
     /* border: 1px solid green; */
@@ -33,10 +33,10 @@ header{
     flex: 1;
     justify-content: flex-end;
 }
-
+/* 
 .header-icone-direita {
 
-}
+} */
 
 #header-nome {
     clear: both;
