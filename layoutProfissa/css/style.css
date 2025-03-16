@@ -1,5 +1,9 @@
+
+
+ /* HTML*/
 html {
     font-size: 16p;
+    /* box-sizing: border-box; */
 }
 
 body {
@@ -7,6 +11,9 @@ body {
     padding: 0px;
 }
 
+/* ------------------------------------------- */
+
+ /* HEADER */
 header{
     background-color: rgba(131,10,209,255);
     width: 100%;
@@ -21,7 +28,6 @@ header{
 }
 
 #header-icones-esquerda{
-    /* border: 1px solid #c00; */
     flex: 1;
 }
 
@@ -43,10 +49,6 @@ header{
     gap: 20px;
     margin-right: 20px;
 }
-/* 
-.header-icone-direita {
-
-} */
 
 #header-nome {
     clear: both;
@@ -55,9 +57,155 @@ header{
     display: flex;
     align-items: center;
     color: rgba(244,220,255,255);
+    margin-left: 20px;
+    font-family: "Host Grotesk", sans-serif;
 }
 
 #header-icone a {
     color: #ffffff;
     font-size: 1.8rem;
 }
+
+/*------------------------------*/
+
+/* CONTA */
+
+#enter-account {
+    display: flex;
+    align-items: center;
+    /* margin-right: 20px; */
+    font-size: 1.4rem;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#enter-account p {
+    flex: 1;
+    font-family: "Host Grotesk", sans-serif;
+    font-weight: 700;
+}
+
+#enter-account i {
+    color: #656565;
+}
+
+#valor-account {
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 1.4rem;
+    margin-left: 7px;
+    margin-left: 30px;
+}
+
+/* --------------------------------------------- */
+
+/* SLIDESHOW */
+
+.slides-nu {
+    overflow-x: auto;
+    /* scroll-behavior: smooth; */
+    scrollbar-width: none;
+}
+
+.list-slideshow{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    gap: 5%;
+    /* background-color: blue; */
+    padding: 7px;
+    margin-left: 30px;
+    
+}
+/* -------------------------------------------- */
+
+
+/* SLIDE BUTTONS */
+
+.title-icon-slide-actions {
+    margin-top: 60px;
+    font-family: "Host Grotesk", sans-serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.itens-slideshow-buttons-action{
+    margin-top: 60px;
+    min-width: 120px;
+    text-align: center;
+    /* background-color: #8c1ed5; */
+}
+
+.icons-buttons-action {
+    background-color: rgba(239,239,239,255);
+    font-size: 2.2rem;
+    border-radius: 50%;
+    padding: 40px;
+    color: #090909;
+    
+}
+
+/* --------------------------------- */
+
+/* MEUS CARTOES */
+
+#container-meus-cartoes {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#meus-cartoes{
+    background-color: rgba(239,239,239,255);
+    border: none;
+    width: 100%;
+    height: 70px;
+    border-radius: 15px;
+    text-align: left;
+    font-family: "Host Grotesk", sans-serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding: 45px;
+    margin-right: 50px;
+}
+
+.icon-meus-cartoes{
+    font-size: 1.9rem;
+    color: #090909;
+}
+
+/* -------------------------------- */
+
+/* OPORTUNIDADES NU */
+
+.itens-slideshow-oportunidades-nu {
+    min-height: 118px;
+    min-width: 32rem;
+    display: flex;
+    border: none;
+}
+.itens-slideshow-oportunidades-nu button {
+    border: none;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.itens-slideshow-oportunidades-nu button p {
+    padding: 0px;
+    text-align: left;
+    font-size: 1.3rem;
+    color: #5c5c5c;
+    margin: 23px;
+}
+.destaque-text {
+    color: #993ad7;
+}
+
+hr {
+    border: #090909;
+    height: 4px;
+    background-color: #efefef;
+    margin-right: 30px;
+}
+
