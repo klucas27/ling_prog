@@ -2,7 +2,7 @@
 
  /* HTML*/
 html {
-    font-size: 16p;
+    font-size: 16px;
     /* box-sizing: border-box; */
 }
 
@@ -11,6 +11,9 @@ body {
     padding: 0px;
 }
 
+main {
+    padding-bottom: 80px;
+}
 
 hr {    /* SEPARADOR */
     border: #090909;
@@ -109,8 +112,8 @@ header{
 /* SLIDESHOW */
 
 .slides-nu {
-    overflow-x: auto;
-    /* scroll-behavior: smooth; */
+    overflow-x: scroll;
+    scroll-behavior: smooth;
     scrollbar-width: none;
     width: 100%;
 }
@@ -230,7 +233,7 @@ header{
     min-height: 18rem;
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 59px;    
+    /* margin-bottom: 59px;     */
 }
 
 .itens-descubra-mais img {
