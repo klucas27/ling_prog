@@ -11,6 +11,15 @@ body {
     padding: 0px;
 }
 
+
+hr {    /* SEPARADOR */
+    border: #090909;
+    height: 4px;
+    background-color: #efefef;
+    margin-right: 20px;
+}
+
+
 /* ------------------------------------------- */
 
  /* HEADER */
@@ -32,7 +41,7 @@ header{
 }
 
 .header-icone-esquerda {
-    margin-left: 20px;
+    margin-left: 30px;
     background-color: #8c1ed5;
     width: 50px;
     height: 50px;
@@ -53,11 +62,10 @@ header{
 #header-nome {
     clear: both;
     height: 7vh;
-    /* border: 1px solid #fc3; */
     display: flex;
     align-items: center;
     color: rgba(244,220,255,255);
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: "Host Grotesk", sans-serif;
 }
 
@@ -68,32 +76,32 @@ header{
 
 /*------------------------------*/
 
-/* CONTA */
-
-#enter-account {
+/* TITLE SECTION */
+#title-section {
     display: flex;
     align-items: center;
-    /* margin-right: 20px; */
     font-size: 1.4rem;
     margin-right: 30px;
     margin-left: 30px;
 }
 
-#enter-account p {
+#title-section p {
     flex: 1;
     font-family: "Host Grotesk", sans-serif;
     font-weight: 700;
 }
 
-#enter-account i {
+#title-section i {
     color: #656565;
 }
+/*--------------------------------------*/
 
-#valor-account {
+/* INSERT VALORES */
+.edit-valor-sections {
     font-family: "Host Grotesk", sans-serif;
     font-size: 1.4rem;
     margin-left: 7px;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 
 /* --------------------------------------------- */
@@ -104,6 +112,7 @@ header{
     overflow-x: auto;
     /* scroll-behavior: smooth; */
     scrollbar-width: none;
+    width: 100%;
 }
 
 .list-slideshow{
@@ -184,6 +193,7 @@ header{
     min-width: 32rem;
     display: flex;
     border: none;
+    margin-bottom: 5px;
 }
 .itens-slideshow-oportunidades-nu button {
     border: none;
@@ -201,11 +211,74 @@ header{
 .destaque-text {
     color: #993ad7;
 }
+/*---------------------------------------*/
 
-hr {
-    border: #090909;
-    height: 4px;
-    background-color: #efefef;
-    margin-right: 30px;
+/* SECTIONS */
+
+.infos-section {
+    margin: 0;
+    font-size: 1rem;
+    color: #888b96;
+    margin-bottom: 8px;
 }
 
+/* DESCUBRA MAIS */
+
+.itens-descubra-mais {
+    background-color: rgba(239,239,239,255);
+    max-width: 20rem;
+    min-height: 18rem;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 59px;    
+}
+
+.itens-descubra-mais img {
+    width: 20rem;
+    border-top-left-radius : 10px;
+    border-top-right-radius : 10px;
+    /* height: 18rem; */
+}
+
+.text-descubra {
+    margin: 15px;
+}
+
+.text-descubra p {
+    color: #656565;
+}
+
+.text-descubra button {
+    background-color: #840cd3;
+    border: none;
+    color: #efefef;
+    border-radius: 40px;
+    width: 8rem;
+    height: 2rem;
+    font-size: medium;
+}
+
+/* ---------------------------- */
+
+/* RODAPE */
+#rodape {
+    display: flex;
+    gap: 20px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* margin-bottom: 15px; */
+}
+
+#rodape a {
+    flex: 1;
+    text-align: center;
+    font-size: 1.9rem;
+    justify-content: center;
+    line-height: 2;
+    color: #656565;
+}
+/* ------------------------------ */
